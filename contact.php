@@ -6,6 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us | Braids by Olu</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+            --color-brand-50: #fbf6f8;
+            --color-brand-100: #f6edf1;
+            --color-brand-200: #ebd4de;
+            --color-brand-300: #dfbcca;
+            --color-brand-400: #c98ca5;
+            --color-brand-500: #b25d80;
+            --color-brand-600: #98506D;
+            --color-brand-700: #7c4159;
+            --color-brand-800: #653549;
+            --color-brand-900: #552d3e;
+        }
+    </style>
 </head>
 
 <body class="bg-white text-gray-900 font-sans">
@@ -14,36 +28,36 @@
     <nav class="w-full flex items-center justify-between px-6 md:px-16 py-5 bg-white shadow-sm sticky top-0 z-50">
         
         <a href="index.php" class="flex items-center gap-3">
-            <div class="w-10 h-10 rounded-xl bg-purple-600 flex items-center justify-center text-white font-bold">
+            <div class="w-10 h-10 rounded-xl bg-brand-600 flex items-center justify-center text-white font-bold">
                 BO
             </div>
             <h1 class="text-lg font-bold tracking-wide">Braids by Olu</h1>
         </a>
 
         <ul class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-700">
-            <li><a href="index.php" class="hover:text-purple-600">Home</a></li>
-            <li><a href="services.php" class="hover:text-purple-600">Services</a></li>
-            <li><a href="stylists.php" class="hover:text-purple-600">Stylists</a></li>
-            <li><a href="gallery.php" class="hover:text-purple-600">Gallery</a></li>
-            <li><a href="about.php" class="hover:text-purple-600">About Us</a></li>
-            <li><a href="contact.php" class="text-purple-600 font-semibold">Contact</a></li>
+            <li><a href="index.php" class="hover:text-brand-600">Home</a></li>
+            <li><a href="services.php" class="hover:text-brand-600">Services</a></li>
+            <li><a href="stylists.php" class="hover:text-brand-600">Stylists</a></li>
+            <li><a href="gallery.php" class="hover:text-brand-600">Gallery</a></li>
+            <li><a href="about.php" class="hover:text-brand-600">About Us</a></li>
+            <li><a href="contact.php" class="text-brand-600 font-semibold">Contact</a></li>
         </ul>
 
-        <a href="booking.php" class="bg-purple-600 hover:bg-purple-700 text-white px-5 py-2 rounded-xl font-medium shadow-md transition">
+        <a href="booking.php" class="bg-brand-600 hover:bg-brand-700 text-white px-5 py-2 rounded-xl font-medium shadow-md transition">
             Book Appointment
         </a>
     </nav>
 
 
     <!-- HEADER -->
-    <section class="px-6 md:px-16 py-16 bg-gradient-to-b from-purple-50 to-white">
+    <section class="px-6 md:px-16 py-16 bg-gradient-to-b from-brand-50 to-white">
         <div class="max-w-4xl">
-            <p class="text-purple-600 font-semibold uppercase tracking-widest text-sm">
+            <p class="text-brand-600 font-semibold uppercase tracking-widest text-sm">
                 Contact Us
             </p>
 
             <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mt-4">
-                Let’s Talk, <span class="text-purple-600">Queen.</span>
+                Let’s Talk, <span class="text-brand-600">Queen.</span>
             </h1>
 
             <p class="text-gray-600 mt-6 text-lg">
@@ -59,7 +73,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
 
             <!-- CONTACT INFO -->
-            <div class="bg-purple-50 border border-purple-100 rounded-3xl p-10 shadow-sm">
+            <div class="bg-brand-50 border border-brand-100 rounded-3xl p-10 shadow-sm">
                 <h2 class="text-2xl font-bold">Contact Information</h2>
 
                 <p class="text-gray-600 mt-4">
@@ -69,7 +83,7 @@
                 <div class="mt-8 space-y-6 text-gray-700">
 
                     <div class="flex items-center gap-4">
-                        <div class="w-12 h-12 rounded-2xl bg-purple-600 flex items-center justify-center text-white text-lg">
+                        <div class="w-12 h-12 rounded-2xl bg-brand-600 flex items-center justify-center text-white text-lg">
                             📍
                         </div>
                         <div>
@@ -79,7 +93,7 @@
                     </div>
 
                     <div class="flex items-center gap-4">
-                        <div class="w-12 h-12 rounded-2xl bg-purple-600 flex items-center justify-center text-white text-lg">
+                        <div class="w-12 h-12 rounded-2xl bg-brand-600 flex items-center justify-center text-white text-lg">
                             📞
                         </div>
                         <div>
@@ -89,7 +103,7 @@
                     </div>
 
                     <div class="flex items-center gap-4">
-                        <div class="w-12 h-12 rounded-2xl bg-purple-600 flex items-center justify-center text-white text-lg">
+                        <div class="w-12 h-12 rounded-2xl bg-brand-600 flex items-center justify-center text-white text-lg">
                             ✉
                         </div>
                         <div>
@@ -99,7 +113,7 @@
                     </div>
 
                     <div class="flex items-center gap-4">
-                        <div class="w-12 h-12 rounded-2xl bg-purple-600 flex items-center justify-center text-white text-lg">
+                        <div class="w-12 h-12 rounded-2xl bg-brand-600 flex items-center justify-center text-white text-lg">
                             ⏰
                         </div>
                         <div>
@@ -131,29 +145,29 @@
                     <div>
                         <label class="block text-sm font-semibold text-gray-700 mb-2">Full Name</label>
                         <input type="text" name="name" required
-                            class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500">
+                            class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-500">
                     </div>
 
                     <div>
                         <label class="block text-sm font-semibold text-gray-700 mb-2">Email Address</label>
                         <input type="email" name="email" required
-                            class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500">
+                            class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-500">
                     </div>
 
                     <div>
                         <label class="block text-sm font-semibold text-gray-700 mb-2">Phone Number</label>
                         <input type="text" name="phone"
-                            class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500">
+                            class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-500">
                     </div>
 
                     <div>
                         <label class="block text-sm font-semibold text-gray-700 mb-2">Message</label>
                         <textarea name="message" rows="5" required
-                            class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500"></textarea>
+                            class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-500"></textarea>
                     </div>
 
                     <button type="submit"
-                        class="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-4 rounded-2xl shadow-md transition">
+                        class="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold py-4 rounded-2xl shadow-md transition">
                         Send Message
                     </button>
 
@@ -182,7 +196,7 @@
         <div class="flex flex-col md:flex-row items-center justify-between gap-6">
             
             <div class="flex items-center gap-3">
-                <div class="w-10 h-10 rounded-xl bg-purple-600 flex items-center justify-center text-white font-bold">
+                <div class="w-10 h-10 rounded-xl bg-brand-600 flex items-center justify-center text-white font-bold">
                     BO
                 </div>
                 <p class="font-bold">Braids by Olu</p>
@@ -202,3 +216,4 @@
 </body>
 </html>
 ```
+

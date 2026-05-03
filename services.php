@@ -52,6 +52,20 @@ $services = [
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services | Braids by Olu</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+            --color-brand-50: #fbf6f8;
+            --color-brand-100: #f6edf1;
+            --color-brand-200: #ebd4de;
+            --color-brand-300: #dfbcca;
+            --color-brand-400: #c98ca5;
+            --color-brand-500: #b25d80;
+            --color-brand-600: #98506D;
+            --color-brand-700: #7c4159;
+            --color-brand-800: #653549;
+            --color-brand-900: #552d3e;
+        }
+    </style>
 </head>
 
 <body class="bg-white text-gray-900 font-sans">
@@ -60,36 +74,36 @@ $services = [
     <nav class="w-full flex items-center justify-between px-6 md:px-16 py-5 bg-white shadow-sm sticky top-0 z-50">
         
         <a href="index.php" class="flex items-center gap-3">
-            <div class="w-10 h-10 rounded-xl bg-purple-600 flex items-center justify-center text-white font-bold">
+            <div class="w-10 h-10 rounded-xl bg-brand-600 flex items-center justify-center text-white font-bold">
                 BO
             </div>
             <h1 class="text-lg font-bold tracking-wide">Braids by Olu</h1>
         </a>
 
         <ul class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-700">
-            <li><a href="index.php" class="hover:text-purple-600">Home</a></li>
-            <li><a href="services.php" class="text-purple-600 font-semibold">Services</a></li>
-            <li><a href="stylists.php" class="hover:text-purple-600">Stylists</a></li>
-            <li><a href="gallery.php" class="hover:text-purple-600">Gallery</a></li>
-            <li><a href="about.php" class="hover:text-purple-600">About Us</a></li>
-            <li><a href="contact.php" class="hover:text-purple-600">Contact</a></li>
+            <li><a href="index.php" class="hover:text-brand-600">Home</a></li>
+            <li><a href="services.php" class="text-brand-600 font-semibold">Services</a></li>
+            <li><a href="stylists.php" class="hover:text-brand-600">Stylists</a></li>
+            <li><a href="gallery.php" class="hover:text-brand-600">Gallery</a></li>
+            <li><a href="about.php" class="hover:text-brand-600">About Us</a></li>
+            <li><a href="contact.php" class="hover:text-brand-600">Contact</a></li>
         </ul>
 
-        <a href="booking.php" class="bg-purple-600 hover:bg-purple-700 text-white px-5 py-2 rounded-xl font-medium shadow-md transition">
+        <a href="booking.php" class="bg-brand-600 hover:bg-brand-700 text-white px-5 py-2 rounded-xl font-medium shadow-md transition">
             Book Appointment
         </a>
     </nav>
 
 
     <!-- HEADER -->
-    <section class="px-6 md:px-16 py-16 bg-gradient-to-b from-purple-50 to-white">
+    <section class="px-6 md:px-16 py-16 bg-gradient-to-b from-brand-50 to-white">
         <div class="max-w-4xl">
-            <p class="text-purple-600 font-semibold uppercase tracking-widest text-sm">
+            <p class="text-brand-600 font-semibold uppercase tracking-widest text-sm">
                 Our Services
             </p>
 
             <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mt-4">
-                Braids made for <span class="text-purple-600">Queens.</span>
+                Braids made for <span class="text-brand-600">Queens.</span>
             </h1>
 
             <p class="text-gray-600 mt-6 text-lg">
@@ -107,7 +121,7 @@ $services = [
 
             <div class="flex gap-3">
                 <input type="text" placeholder="Search service..."
-                    class="w-full md:w-72 px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500">
+                    class="w-full md:w-72 px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-500">
             </div>
         </div>
 
@@ -128,12 +142,12 @@ $services = [
                         </p>
 
                         <div class="flex items-center justify-between mt-5">
-                            <p class="text-purple-600 font-bold"><?= $service['price']; ?></p>
+                            <p class="text-brand-600 font-bold"><?= $service['price']; ?></p>
                             <p class="text-sm text-gray-500"><?= $service['time']; ?></p>
                         </div>
 
                         <a href="booking.php"
-                            class="mt-6 block text-center bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 rounded-2xl shadow-md transition">
+                            class="mt-6 block text-center bg-brand-600 hover:bg-brand-700 text-white font-semibold py-3 rounded-2xl shadow-md transition">
                             Book Now
                         </a>
                     </div>
@@ -146,7 +160,7 @@ $services = [
 
 
     <!-- CTA SECTION -->
-    <section class="px-6 md:px-16 py-16 bg-purple-50">
+    <section class="px-6 md:px-16 py-16 bg-brand-50">
         <div class="bg-white rounded-3xl shadow-lg p-10 flex flex-col md:flex-row items-center justify-between gap-8">
             
             <div>
@@ -160,7 +174,7 @@ $services = [
 
             <div class="text-center">
                 <a href="booking.php"
-                    class="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-2xl font-bold shadow-md transition inline-block">
+                    class="bg-brand-600 hover:bg-brand-700 text-white px-8 py-4 rounded-2xl font-bold shadow-md transition inline-block">
                     Book Appointment
                 </a>
                 <p class="text-sm text-gray-500 mt-3">
@@ -177,7 +191,7 @@ $services = [
         <div class="flex flex-col md:flex-row items-center justify-between gap-6">
             
             <div class="flex items-center gap-3">
-                <div class="w-10 h-10 rounded-xl bg-purple-600 flex items-center justify-center text-white font-bold">
+                <div class="w-10 h-10 rounded-xl bg-brand-600 flex items-center justify-center text-white font-bold">
                     BO
                 </div>
                 <p class="font-bold">Braids by Olu</p>

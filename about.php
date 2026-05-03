@@ -6,6 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us | Braids by Olu</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+            --color-brand-50: #fbf6f8;
+            --color-brand-100: #f6edf1;
+            --color-brand-200: #ebd4de;
+            --color-brand-300: #dfbcca;
+            --color-brand-400: #c98ca5;
+            --color-brand-500: #b25d80;
+            --color-brand-600: #98506D;
+            --color-brand-700: #7c4159;
+            --color-brand-800: #653549;
+            --color-brand-900: #552d3e;
+        }
+    </style>
 </head>
 
 <body class="bg-white text-gray-900 font-sans">
@@ -14,36 +28,36 @@
     <nav class="w-full flex items-center justify-between px-6 md:px-16 py-5 bg-white shadow-sm sticky top-0 z-50">
         
         <a href="index.php" class="flex items-center gap-3">
-            <div class="w-10 h-10 rounded-xl bg-purple-600 flex items-center justify-center text-white font-bold">
+            <div class="w-10 h-10 rounded-xl bg-brand-600 flex items-center justify-center text-white font-bold">
                 BO
             </div>
             <h1 class="text-lg font-bold tracking-wide">Braids by Olu</h1>
         </a>
 
         <ul class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-700">
-            <li><a href="index.php" class="hover:text-purple-600">Home</a></li>
-            <li><a href="services.php" class="hover:text-purple-600">Services</a></li>
-            <li><a href="stylists.php" class="hover:text-purple-600">Stylists</a></li>
-            <li><a href="gallery.php" class="hover:text-purple-600">Gallery</a></li>
-            <li><a href="about.php" class="text-purple-600 font-semibold">About Us</a></li>
-            <li><a href="contact.php" class="hover:text-purple-600">Contact</a></li>
+            <li><a href="index.php" class="hover:text-brand-600">Home</a></li>
+            <li><a href="services.php" class="hover:text-brand-600">Services</a></li>
+            <li><a href="stylists.php" class="hover:text-brand-600">Stylists</a></li>
+            <li><a href="gallery.php" class="hover:text-brand-600">Gallery</a></li>
+            <li><a href="about.php" class="text-brand-600 font-semibold">About Us</a></li>
+            <li><a href="contact.php" class="hover:text-brand-600">Contact</a></li>
         </ul>
 
-        <a href="booking.php" class="bg-purple-600 hover:bg-purple-700 text-white px-5 py-2 rounded-xl font-medium shadow-md transition">
+        <a href="booking.php" class="bg-brand-600 hover:bg-brand-700 text-white px-5 py-2 rounded-xl font-medium shadow-md transition">
             Book Appointment
         </a>
     </nav>
 
 
     <!-- HEADER -->
-    <section class="px-6 md:px-16 py-16 bg-gradient-to-b from-purple-50 to-white">
+    <section class="px-6 md:px-16 py-16 bg-gradient-to-b from-brand-50 to-white">
         <div class="max-w-4xl">
-            <p class="text-purple-600 font-semibold uppercase tracking-widest text-sm">
+            <p class="text-brand-600 font-semibold uppercase tracking-widest text-sm">
                 About Us
             </p>
 
             <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mt-4">
-                More than braids, <span class="text-purple-600">it's culture.</span>
+                More than braids, <span class="text-brand-600">it's culture.</span>
             </h1>
 
             <p class="text-gray-600 mt-6 text-lg">
@@ -82,14 +96,14 @@
                 </p>
 
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10">
-                    <div class="bg-purple-50 p-6 rounded-2xl border border-purple-100">
+                    <div class="bg-brand-50 p-6 rounded-2xl border border-brand-100">
                         <h3 class="font-bold text-lg">✨ Our Mission</h3>
                         <p class="text-sm text-gray-600 mt-2">
                             To empower our clients through beautiful braids and exceptional service.
                         </p>
                     </div>
 
-                    <div class="bg-purple-50 p-6 rounded-2xl border border-purple-100">
+                    <div class="bg-brand-50 p-6 rounded-2xl border border-brand-100">
                         <h3 class="font-bold text-lg">💜 Our Vision</h3>
                         <p class="text-sm text-gray-600 mt-2">
                             To become the most trusted braiding salon in South Africa.
@@ -111,7 +125,7 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
             <div class="bg-white shadow-md hover:shadow-xl transition border border-gray-100 p-8 rounded-3xl text-center">
-                <div class="w-14 h-14 mx-auto rounded-2xl bg-purple-600 flex items-center justify-center text-white text-xl font-bold">
+                <div class="w-14 h-14 mx-auto rounded-2xl bg-brand-600 flex items-center justify-center text-white text-xl font-bold">
                     1
                 </div>
                 <h3 class="font-bold text-xl mt-6">Quality</h3>
@@ -121,7 +135,7 @@
             </div>
 
             <div class="bg-white shadow-md hover:shadow-xl transition border border-gray-100 p-8 rounded-3xl text-center">
-                <div class="w-14 h-14 mx-auto rounded-2xl bg-purple-600 flex items-center justify-center text-white text-xl font-bold">
+                <div class="w-14 h-14 mx-auto rounded-2xl bg-brand-600 flex items-center justify-center text-white text-xl font-bold">
                     2
                 </div>
                 <h3 class="font-bold text-xl mt-6">Comfort</h3>
@@ -131,7 +145,7 @@
             </div>
 
             <div class="bg-white shadow-md hover:shadow-xl transition border border-gray-100 p-8 rounded-3xl text-center">
-                <div class="w-14 h-14 mx-auto rounded-2xl bg-purple-600 flex items-center justify-center text-white text-xl font-bold">
+                <div class="w-14 h-14 mx-auto rounded-2xl bg-brand-600 flex items-center justify-center text-white text-xl font-bold">
                     3
                 </div>
                 <h3 class="font-bold text-xl mt-6">Community</h3>
@@ -145,7 +159,7 @@
 
 
     <!-- CTA SECTION -->
-    <section class="px-6 md:px-16 py-16 bg-purple-50">
+    <section class="px-6 md:px-16 py-16 bg-brand-50">
         <div class="bg-white rounded-3xl shadow-lg p-10 flex flex-col md:flex-row items-center justify-between gap-8">
             
             <div>
@@ -159,7 +173,7 @@
 
             <div class="text-center">
                 <a href="booking.php"
-                    class="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-2xl font-bold shadow-md transition inline-block">
+                    class="bg-brand-600 hover:bg-brand-700 text-white px-8 py-4 rounded-2xl font-bold shadow-md transition inline-block">
                     Book Appointment
                 </a>
                 <p class="text-sm text-gray-500 mt-3">
@@ -176,7 +190,7 @@
         <div class="flex flex-col md:flex-row items-center justify-between gap-6">
             
             <div class="flex items-center gap-3">
-                <div class="w-10 h-10 rounded-xl bg-purple-600 flex items-center justify-center text-white font-bold">
+                <div class="w-10 h-10 rounded-xl bg-brand-600 flex items-center justify-center text-white font-bold">
                     BO
                 </div>
                 <p class="font-bold">Braids by Olu</p>
@@ -196,3 +210,4 @@
 </body>
 </html>
 ```
+
