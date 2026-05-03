@@ -27,7 +27,7 @@
   <nav class="w-full flex items-center justify-between px-6 md:px-16 py-5 bg-white shadow-sm sticky top-0 z-50">
     
     <div class="flex items-center gap-3">
-      <div class="w-10 h-10 rounded-xl bg-brand-600 flex items-center justify-center text-white font-bold">
+      <div class="w-10 h-10 rounded-xl cursor-pointer bg-brand-600 flex items-center justify-center text-white font-bold">
         BO
       </div>
       <h1 class="text-lg font-bold tracking-wide">Braids by Olu</h1>
@@ -42,7 +42,7 @@
       <li class="hover:text-brand-600 cursor-pointer">Contact</li>
     </ul>
 
-    <button class="bg-brand-600 hover:bg-brand-700 text-white px-5 py-2 rounded-xl font-medium shadow-md transition">
+    <button class="bg-brand-600 hover:bg-brand-700 text-white px-5 py-2 rounded-xl cursor-pointer font-medium shadow-md transition">
       Book Appointment
     </button>
   </nav>
@@ -69,11 +69,11 @@
         </p>
 
         <div class="flex items-center gap-4 mt-8">
-          <button class="bg-brand-600 hover:bg-brand-700 text-white px-6 py-3 rounded-xl font-semibold shadow-lg transition">
+          <button class="bg-brand-600 hover:bg-brand-700 text-white px-6 py-3 rounded-xl cursor-pointer font-semibold shadow-lg transition">
             Book Now →
           </button>
 
-          <button class="border border-gray-300 hover:border-brand-500 px-6 py-3 rounded-xl font-semibold text-gray-700 transition">
+          <button class="border border-gray-300 hover:border-brand-500 px-6 py-3 rounded-xl cursor-pointer font-semibold text-gray-700 transition">
             View All Services
           </button>
         </div>
@@ -263,7 +263,7 @@
       </div>
 
       <div class="text-center">
-        <button class="bg-brand-600 hover:bg-brand-700 text-white px-8 py-4 rounded-2xl font-bold shadow-md transition">
+        <button class="bg-brand-600 hover:bg-brand-700 text-white px-8 cursor-pointer py-4 rounded-2xl font-bold shadow-md transition">
           Book Appointment
         </button>
         <p class="text-sm text-gray-500 mt-3">
@@ -280,7 +280,7 @@
     <div class="flex flex-col md:flex-row items-center justify-between gap-6">
       
       <div class="flex items-center gap-3">
-        <div class="w-10 h-10 rounded-xl bg-brand-600 flex items-center justify-center text-white font-bold">
+        <div class="w-10 h-10 rounded-xl cursor-pointer bg-brand-600 flex items-center justify-center text-white font-bold">
           BO
         </div>
         <p class="font-bold">Braids by Olu</p>
